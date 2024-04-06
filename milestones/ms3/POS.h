@@ -5,7 +5,7 @@
 #define MAX_NAME_LEN 60
 #define MAX_STOCK_NUMBER 999
 #define MAX_NO_ITEMS 500
-#define MAX_BILL_ITEMS 10
+#define MAX_BILL_ITEMS 3
 
 
 #endif // !SENECA_POS_H
