@@ -27,7 +27,7 @@ int saveItems(const char filename[]);
 double billDisplay(const struct Item* item);
 void display(const struct Item* item);
 int search(void);
-void POS(void);
+int POS(void);
 
 #endif // !SENECA_POSAPP_H
 
