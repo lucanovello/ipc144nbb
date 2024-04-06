@@ -146,8 +146,8 @@ int POS(void) {
 				billTotal += cost(bill[billItemCounter]);
 				billItemCounter++;
 			}
-		if (billItemCounter < MAX_BILL_ITEMS - 1) {
-			return -1;	
+		//if (billItemCounter < MAX_BILL_ITEMS - 1) {
+		//	return -1;	
 		}
 		}
 		skuResult = search();
