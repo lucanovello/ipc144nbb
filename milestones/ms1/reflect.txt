@@ -1,0 +1,4 @@
+Milestone 1 - Reflection
+Luca Novello - gnovello
+
+So this is the first milestone and I am excited to get started.  I found this milestone a good starting point as ultimately we just defined the main prototypes of out code and will fill in the functions as we progress. I really like the fact we're making a POS (even though it is very basic) as POS systems are very common programs that businesses need.  My main difficulties right now are with the quizzes as I struggle to memorize syntax but once I am coding in the IDE I feel very comfortable. Overall, I am looking forward to completing all the milestones.

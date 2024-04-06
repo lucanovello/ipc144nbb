@@ -1,0 +1,6 @@
+Workshop 2 - Reflection
+Luca Novello - gnovello
+
+I enjoyed this workshop a lot.  We learned more about how to use printf, scanf, and putchar, which was good practice.  We also learned about loops, specifically using the while function.  I really enjoy loops as they show how programming can help automate many functions quickly and easily.  Also, using user inputs to control the loops was very interesting.  
+The only issues I ran into were issues with Visual Studio.  I incorrectly added some files from a different folder and when I ran the program, it worked, but when I copied it to Matrix, because those files hadn't been edited, it was trying to run empty scripts.  It took me a while but I was able to figure it out by using the nano function on Matrix.  Although it was fustrating, a lesson was learned.
+Overall, I'm enjoying the class.  I am getting pretty familiar with using Matrix and the linux system, as well as using Git, and I am looking forward to getting more practice with everything.

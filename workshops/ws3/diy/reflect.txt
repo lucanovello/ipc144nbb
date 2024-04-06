@@ -1,0 +1,5 @@
+Workshop 3 - Reflection
+Luca Novello - gnovello
+
+Once again, I really enjoyed this workshop.  In this workshop, we continued to build on everything we learned in the previous workshops, but added some additional logic and functionality.  We learned about if/else statements and how to validate certain user inputs to either out a result or an error message.  We also reviewed additional ways to perform loops.  In addition, we made our code more modular by compartmentalizing it into different files and by using header files.  The ability to import previously created files, such as the utils.c file, makes creating programs more efficient and allows you to build ontop of what you've already done instead of having to start fresh every time. 
+Overall, I'm excited to keep building on what we've learned so far.  I was able to resolve my issues with Matrix (I hadn't created an SSH key), and have been able to synchronize my workflow through git on all platforms.    

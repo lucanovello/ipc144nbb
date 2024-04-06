@@ -1,0 +1,4 @@
+Milestone 2 - Reflection
+Luca Novello - gnovello
+
+So this is the second milestone and again, I am excited to get started.  This milestone focused on building the inventory function in the PosApp.c. We're creating an item structure and then reading deliminated fields from a .csv file and populating a global area with new items made from each line in the file.  I'm really enjoying this milestone as being able to interact with external files really starts to show the potential functionality of the c language and helps me to understand the future applications. In conclusion, I am enjoying it.

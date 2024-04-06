@@ -1,0 +1,6 @@
+Workshop 4 - Reflection
+Luca Novello - gnovello
+
+As always, I really enjoyed this workshop.  Any chance I get to code I truly enjoy 
+it.  In this workshop, we started using arrays.  My biggest obstacle right now is 
+that I am familiar with arrays in JavaScript and I am trying not to bring any of those biases to C.  The workshop was pretty straightforward with only 2 functions to build.  There was some minor math in that the average grade needed to be calculated, but we've done this in earlier workshops.  We continued to build off of the scripts we've already made in the utils.c and utils.h files.  Overall, I am really looking forward to doing more coding and getting more practice with C.

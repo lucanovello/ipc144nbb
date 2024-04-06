@@ -1,0 +1,4 @@
+Workshop 5 - Reflection
+Luca Novello - gnovello
+
+In this workshop we worked with structures.  I found structures interesting as they seem to work like classes but I am not sure what the main difference is.  This workshop involved a lot of clean up of existing code.  We cleaned up the utils file and added some foolproof validation for the geInt, getFlt and getDbl functions, as well as some additional functions.  We also continuedto build off of the report.c file from the last workshop by adding a few more functions and changing the arguments from arrays to a struct.  Overall, I am really enjoying the progression of the code and can't wait for more opportunities to code.
