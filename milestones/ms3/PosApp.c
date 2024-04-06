@@ -131,7 +131,7 @@ void POS(void) {
 	double billTotal = 0;
 	int i;
 	int skuResult = search();
-	while (skuResult != -2 && billItemCounter < MAX_BILL_ITEMS) {
+	while (skuResult != -2 && billItemCounter < MAX_BILL_ITEMS - 1) {
 		if (skuResult == -1) {
 			printf("SKU not found!\n");
 		}
