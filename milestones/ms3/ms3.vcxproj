@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main31.c" />
+    <ClCompile Include="main35.c" />
     <ClCompile Include="PosApp.c" />
     <ClCompile Include="PosUI.c" />
     <ClCompile Include="utils.c" />
