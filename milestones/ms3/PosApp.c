@@ -152,7 +152,7 @@ void POS(void) {
 			}
 		}
 	} while (billItemCounter < MAX_BILL_ITEMS);
-
+if (billItemCounter > 0) {
 	printf("+---------------v-----------v-----+\n");
 	printf("| Item          |     Price | Tax |\n");
 	printf("+---------------+-----------+-----+\n");
@@ -164,5 +164,5 @@ void POS(void) {
 	printf("+---------------^-----------^-----+\n");
 	printf("| total:              %.2lf |\n", billTotal);
 	printf("^---------------------------^\n");
-
+}
 }
