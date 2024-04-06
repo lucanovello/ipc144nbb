@@ -24,7 +24,7 @@
     <ClCompile Include="utils.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main35.c">
+    <ClCompile Include="main31.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

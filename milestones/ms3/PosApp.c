@@ -57,7 +57,7 @@ int loadItems(const char filename[]) {
 		fprintf(stderr, "ERROR! ERROR! File %s not found. File required to continue...\n", filename);
 		return 2;
 	}
-	while (fscanf(data, "%6[^,],%60[^,],%lf,%d,%d", items[noOfItems].sku, items[noOfItems].name, &items[noOfItems].price, &items[noOfItems].taxed, &items[noOfItems].quantity) == 5) {
+	while (fscanf(data, "%[^,],%[^,],%lf,%d,%d", items[noOfItems].sku, items[noOfItems].name, &items[noOfItems].price, &items[noOfItems].taxed, &items[noOfItems].quantity) == 5) {
 		noOfItems += 1;
 		flushFile(data);
 	};
@@ -68,18 +68,19 @@ int loadItems(const char filename[]) {
 int saveItems(const char filename[]) {
 	int i;
 	displayAction("Saving Items");
-
 	FILE* file = fopen(filename, "w");
 	if (file == NULL) {
 		fprintf(stderr, "Could not open >>%s<<\n", filename);
-		return 2;
+		return -1;
 	}
 	for (i = 0; i < noOfItems; i++)
 	{
 		struct Item item = items[i];
-		fprintf(file, "%5[^\t\n],%59[^\n],%lf,%d,%d\n", item.sku, item.name, items[i].price, items[i].taxed, items[i].quantity);
+		fprintf(file, "%s,%s,%.2lf,%d,%d\n", item.sku, item.name, items[i].price, items[i].taxed, items[i].quantity);
 	};
 	fclose(file);
+	displayAction("Done!");
+	return 0;
 }
 double billDisplay(const struct Item* item) {
 	double totalCost = 0.0;
