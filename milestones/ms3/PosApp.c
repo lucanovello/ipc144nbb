@@ -124,14 +124,14 @@ int search(void) {
 	return -1;
 
 }
-void POS(void) {
+int POS(void) {
 	displayAction("Point Of Sale");
 	struct Item* bill[MAX_BILL_ITEMS + 1];
 	int billItemCounter = 0;
 	double billTotal = 0;
 	int i;
 	int skuResult = search();
-	while (skuResult != -2 && billItemCounter < MAX_BILL_ITEMS - 1) {
+	while (skuResult != -2) {
 		if (skuResult == -1) {
 			printf("SKU not found!\n");
 		}
@@ -146,6 +146,9 @@ void POS(void) {
 				billTotal += cost(bill[billItemCounter]);
 				billItemCounter++;
 			}
+		if (billItemCounter < MAX_BILL_ITEMS - 1) {
+			return -1;	
+		}
 		}
 		skuResult = search();
 	}
@@ -161,6 +164,7 @@ void POS(void) {
 	printf("+---------------^-----------^-----+\n");
 	printf("| total:              %.2lf |\n", billTotal);
 	printf("^---------------------------^\n");
+	return 0;	
 
 }
 
