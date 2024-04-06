@@ -77,13 +77,12 @@ int saveItems(const char filename[]) {
 	for (i = 0; i < noOfItems; i++)
 	{
 		struct Item item = items[i];
-		fprintf(file, "%s,%s,%lf,%d,%d\n", item.sku, item.name, items[i].price, items[i].taxed, items[i].quantity);
+		fprintf(file, "%5[^\t\n],%59[^\n],%lf,%d,%d\n", item.sku, item.name, items[i].price, items[i].taxed, items[i].quantity);
 	};
 	fclose(file);
 }
 double billDisplay(const struct Item* item) {
 	double totalCost = 0.0;
-	int i;
 	char iName[15];
 	strnCpy(iName, item->name, 14);
 	printf("| %-14s|%10.2lf | %3s |\n", iName, cost(item), item->taxed ? "Yes" : "   ");
