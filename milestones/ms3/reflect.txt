@@ -1,0 +1,4 @@
+Milestone 3 - Reflection
+Luca Novello - gnovello
+
+In the third milestone, we added more functionality to the program by updating the saveItems, billDisplay, display, search and POS functions.  I chose version 2 on MS35 as I like the challenge.  It was very similar to version one but only with pointers.  I had some issues with fgets on the search function as it wasn't leaving a null terminator at the end of the string members in the Item structures, so I worked around it by replacing the last character in the string array with a '\0' instead of the newline character.  I had to do this so it would be compatible with the strcmp function to check if the sku matches.  Other than that, everything went well.  Looking forward to finishing all the Milestones.
