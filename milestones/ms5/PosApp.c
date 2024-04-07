@@ -148,7 +148,7 @@ void addItem(void) {
 		printf("Is the item Taxed? ");
 		newItem.taxed = yes();
 		printf("Quantity: ");
-		newItem.quantity = getIntMM(0, MAX_STOCK_NUMBER, "Quantity");
+		newItem.quantity = getIntMM(1, MAX_STOCK_NUMBER, "Quantity");
 		items[noOfItems] = newItem;
 		noOfItems++;
 		displayAction("Done!");
