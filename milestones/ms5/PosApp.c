@@ -138,10 +138,10 @@ void addItem(void) {
 	displayAction("Adding Item");
 	if (noOfItems < MAX_NO_ITEMS) {
 		printf("SKU: ");
-		scanf("%6s", &newItem.sku);
+		scanf("%6[^\n]", newItem.sku);
 		flushKey();
 		printf("Name: ");
-		scanf("%60s", &newItem.name);
+		scanf("%60[^\n]", newItem.name);
 		flushKey();
 		printf("Price: ");
 		newItem.price = getDbl();
