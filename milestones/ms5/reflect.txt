@@ -1,0 +1,4 @@
+Milestone 5 - Reflection
+Luca Novello - gnovello
+
+So this was the final milestone, and just like all the previous ones, I really enjoyed it.  In this milestone, we implemented the ability to add and remove items from the items array.  Like in milestone 4, the majority of building out these two functions was just a matter of compiling smaller functions that we've already made.  This milestone really felt easy and showed the importance and efficiency that writing clean portable code can produce.  Overall, all the milestones have been great.  I am the type of person that learns best through practice so being able to get my hands coding has been really productive.  I'm looking forward to looking into additional libraries like the string.h and math.h libraries in the future as well as getting ready for OOP next semester.

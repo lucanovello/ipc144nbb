@@ -1,0 +1,4 @@
+Milestone 4 - Reflection
+Luca Novello - gnovello
+
+In this fourth mile stone, we added the ability to use option 4 of the POS system to add to the quantity of the Items in the items array.  This milestone was different in that instead of detailed implementation instruction, we were only given suggested method of implementation.  I really enjoyed this milestone because it really showed the modularity of the code as building the stock method was more of an assembly of the functions we already built in the previous milestones as well as throughout the semester. Overall, I'm really enjoying the milestones and looking forward to finished up milestone 5.
