@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "utils.h"
 
-
 void flushKey(void) {
    char ch = 'x';
    while(ch != '\n') {
