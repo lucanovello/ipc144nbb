@@ -1,33 +1,21 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
-
-void flushKey(void);
+#include "utils.h"
+#include "quiz8.h"
 
 int main(void) {
-	char name[31];
-	char address[51];
-	char reverse[51];
-	
-	printf("Please enter your name: ");
-	scanf("%30[^\n]", &name);
-	flushKey();
-	
-	printf("Please enter address: ");
-	scanf("%30[^\n]", &address);
-	flushKey();
-	
-	printf("name: %s\n", name);
-	printf("address: %s\n", address);
+	int guess;
+	int results;
 
-	strcpy(reverse, _strrev(name));
-	printf("reversed: %s\n", reverse);
+	printf("Please enter an integer: ");
+
+	guess = getInt();
+	results = quiz8(guess);
+
+	results == 1 ? printf("Success") : printf("Fail");
+	nl();
+
 	return 0;
 }
 
-void flushKey(void) {
-	char ch;
-	do {
-		ch = getchar();
-	} while (ch != '\n');
-}
